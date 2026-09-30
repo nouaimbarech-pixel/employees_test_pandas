@@ -59,6 +59,8 @@ df2=df1["Marks"].min()
 print(df2)
 def df1_Marks(x):
     return x/2
-df1=[]
+fd5=df1["Marks"].apply(len)
+print(fd5)
 
 print(df3)
+print(fd5)
